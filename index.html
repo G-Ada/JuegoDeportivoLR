@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" name="text/css" href="juego.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="logo.png" alt="logo" />
+  </header>
+  <section id="juego">
+    <section id="panel">
+      <div class="jugadores">
+        <h1>Jugadores</h1>
+        <div class="contenedorFichas">
+          <img id="azul" class="jugador azul" draggable="true" src="pieza-azul.png" alt="jugador azul" />
+          <img id="rojo" class="jugador rojo" src="pieza-roja.png" alt="jugador rojo" />
+          <img id="amarillo" class='jugador amarillo' src="pieza-amarilla.png" alt="jugador amarillo" />
+        </div>
+      </div>
+      <section class="dado">
+        <h1>Dado</h1>
+        <div class="container">
+        <div id="cube">
+          <div class="front">
+            <span class="dot dot1"></span>
+          </div>
+          <div class="back">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+          </div>
+          <div class="right">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+          </div>
+          <div class="left">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+            <span class="dot dot4"></span>
+          </div>
+          <div class="top">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+            <span class="dot dot4"></span>
+            <span class="dot dot5"></span>
+          </div>
+          <div class="bottom">
+            <span class="dot dot1"></span>
+            <span class="dot dot2"></span>
+            <span class="dot dot3"></span>
+            <span class="dot dot4"></span>
+            <span class="dot dot5"></span>
+            <span class="dot dot6"></span>
+          </div>
+        </div>
+        </div>
+      </section>
+      <div class="ganadores">
+        <h1>Ganadores</h1>
+        <div class="podio">
+          <img class="puestos" src="podio.png" alt="podio" />
+        </div>
+      </div>
+    </section>
+    <section id="tablero">
+      <img class="tablero" src="LosRoblesChallengeMACA.png" alt="tablero" />
+    </section>
+  </section>
+  <script src="funciones.js"></script>
+</body>
+
+</html>
